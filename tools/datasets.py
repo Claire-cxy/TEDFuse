@@ -12,9 +12,9 @@ class Fusion_dataset(Dataset,ir_path=None, vi_path=None):
         # assert split in ['train', 'val', 'test'], 'split must be "train"|"val"|"test"'
 
         # if split == 'train':
-        self.vis_dir = '/home/cuixinyu/MMIF-CDDFuse/MSRS_train/train/vi'
-        self.ir_dir = '/home/cuixinyu/MMIF-CDDFuse/MSRS_train/train/ir'
-        self.label_dir = '/home/cuixinyu/Fusion_new/datasets/MSRS/Segmentation_labels'
+        self.vis_dir = '/home/cuixinyu/TEDFuse/MSRS/train/vi'
+        self.ir_dir = '/home/cuixinyu/TEDFuse/MSRS/train/ir'
+        self.label_dir = '/home/cuixinyu/TEDFuse/datasets/MSRS/Segmentation_labels'
         self.filelist = natsorted(os.listdir(self.vis_dir))
         # self.split = split
         self.length = min(len(self.filelist), len(self.filelist))
