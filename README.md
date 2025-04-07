@@ -76,6 +76,6 @@ The following test datasets are used in the paper:
 
 
 ```bash
-python test.py
+python test_evaluate.py
 ```
 
