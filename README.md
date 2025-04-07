@@ -38,7 +38,7 @@ The processed training dataset will be saved at:
 ./data/MSRS_train_imgsize_128_stride_200.h5
 ```
 
-### 4. CDDFuse Training
+### 4. Training
 
 To train the model, simply run:
 
